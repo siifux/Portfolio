@@ -36,9 +36,7 @@ export const projects = [
   ];
 
   export const skills = [
-      {
-          key: 2,
-      }
+      "React", "TypeScript", "SPFx", "Web Development", "Photography", "Social Media"
   ]
 
   export const testimonials = [
