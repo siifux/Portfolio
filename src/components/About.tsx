@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import profileName from '../assets/profile_2.jpg';
+import profileName from '../assets/profileImg.jpg';
 
 export default function About() {
   return (
@@ -41,9 +41,9 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-md lg:w-md md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded-full"
             alt="hero"
             src={profileName}
           />
