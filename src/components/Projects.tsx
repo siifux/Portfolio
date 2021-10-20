@@ -1,4 +1,4 @@
-import { CodeIcon } from "@heroicons/react/solid";
+import { CodeIcon, LinkIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
 
@@ -12,15 +12,17 @@ export default function Projects() {
             Project Gallery
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Interested in seeing what I've done? Check out my applications & side projects below!
+            Interested in seeing what I've done? Check out my applications &
+            side projects below!
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="mb-8 flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-4"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -39,6 +41,14 @@ export default function Projects() {
               </div>
             </a>
           ))}
+        </div>
+        <div className="flex justify-center">
+          <a href="https://github.com/siifux" className="inline-flex text-white bg-green-500 border-0 py-4 px-12 focus:outline-none hover:bg-green-600 rounded text-lg">
+            Github
+          </a>
+          <a href="https://www.linkedin.com/in/sindrefurulund/" className="ml-8 inline-flex text-gray-400 bg-gray-800 border-0 py-4 px-12 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+            LinkedIn
+          </a>
         </div>
       </div>
     </section>
