@@ -55,7 +55,7 @@ export const testimonials = [
   },
   {
     quote: "I had the pleasure of working with Sindre on PayEx's eCommerce platform. It has been fun to collaborate with him, because he so willingly and pedagogically shares his knowledge with others around him.",
-    image: "https://media-exp1.licdn.com/dms/image/C5603AQFXsyOC2eG9oQ/profile-displayphoto-shrink_200_200/0/1581375911148?e=1640217600&v=beta&t=Msq54uT3v3lieT334iHkffiPr5ShlnSuZVm-qiOjSew",
+    image: "https://media-exp1.licdn.com/dms/image/C4E03AQF6hKgQ-tz-Zw/profile-displayphoto-shrink_800_800/0/1636789617839?e=1642636800&v=beta&t=6BT2avJ771CvwoMb12AIIRa0v_QAFmQ7orfib9jt_u8",
     name: "Rebekka",
     company: "PayEx",
   },
