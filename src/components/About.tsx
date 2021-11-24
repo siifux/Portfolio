@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import profileName from "../assets/profileImg.jpg";
+import profileImg from "../assets/profileImg.jpg";
 
 export default function About() {
   return (
@@ -21,7 +21,7 @@ export default function About() {
             />
           </h1>
           <h1 className="title-font sm:text-2xl text-sm mb-2 font-medium text-white">
-            Passionatly curious developer, driven by my creative mind!
+            Passionatly curious developer, driven by the creative mind!
           </h1>
           <p className="mb-8 leading-relaxed">
             Motivated and driven Fullstack developer, working for PuzzlePart. My
@@ -48,7 +48,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded-full"
             alt="hero"
-            src={profileName}
+            src={profileImg}
           />
         </div>
       </div>
